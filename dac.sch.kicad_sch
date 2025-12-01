@@ -1,0 +1,93 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2305eefa-5fd6-42b7-87f2-4e442071d35f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 160.02 40.64)
+		(size 48.26 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "157057dc-edda-48cb-83c9-cb6b8a11bb6d")
+		(property "Sheetname" "dac"
+			(at 160.02 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 160.02 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 160.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/a94728e7-5369-4898-bc9c-adaf2aafacfb"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 48.26)
+		(size 40.64 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebe3e715-8d6d-4f52-afa6-659ed02add30")
+		(property "Sheetname" "Codec.sch"
+			(at 17.78 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.sch.kicad_sch"
+			(at 17.78 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/a94728e7-5369-4898-bc9c-adaf2aafacfb"
+					(page "8")
+				)
+			)
+		)
+	)
+)
