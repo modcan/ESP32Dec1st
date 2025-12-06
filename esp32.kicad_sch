@@ -7526,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "common:S32K324NHT1MPBST")
-		(at 226.06 148.59 90)
+		(at 222.25 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7535,7 +7535,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6308fff-da30-47c6-9d59-b799b40091a2")
 		(property "Reference" "U14"
-			(at 171.45 147.3199 90)
+			(at 167.64 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7544,7 @@
 			)
 		)
 		(property "Value" "S32K324NHT1MPBST"
-			(at 171.45 149.8599 90)
+			(at 167.64 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7553,7 @@
 			)
 		)
 		(property "Footprint" "commonfootprint:IC_S32K324NHT1MPBST"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7581,7 @@
 			)
 		)
 		(property "MF" "NXP Semiconductors"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7591,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.65 mm"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7601,7 @@
 			)
 		)
 		(property "Package" "QFP-172 NXP"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7611,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7621,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S32K324NHT1MPBST/NXP+Semiconductors/view-part/?ref=eda"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +7631,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7641,7 @@
 			)
 		)
 		(property "PARTREV" "7"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7651,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S32K324NHT1MPBST/NXP+Semiconductors/view-part/?ref=snap"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7661,7 @@
 			)
 		)
 		(property "MP" "S32K324NHT1MPBST"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            ARM® Cortex®-M7 Automotive, AEC-Q100, S32K3 Microcontroller IC 32-Bit Dual-Core 160MHz 4MB (4M x 8) FLASH 172-QFP (16x16)\n                        \n"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7681,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "121580"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7691,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7701,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 226.06 148.59 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
