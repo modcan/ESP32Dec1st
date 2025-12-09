@@ -5897,6 +5897,12 @@
 		(uuid "310afefe-3989-42d1-a95b-4ead02828cf1")
 	)
 	(junction
+		(at 135.89 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3114169f-69cb-4c08-a373-48d14f2bb4ff")
+	)
+	(junction
 		(at 133.35 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5907,6 +5913,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71b7a104-ebc1-4d5e-a5ec-0f3f17d4b0ea")
+	)
+	(junction
+		(at 160.02 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7741354d-d475-4edb-882e-8b965e2c2b7d")
 	)
 	(junction
 		(at 66.04 30.48)
@@ -5990,6 +6002,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 73.66) (xy 135.89 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c9fe4c-5708-423e-abe6-c66975f585b6")
+	)
+	(wire
+		(pts
 			(xy 67.31 132.08) (xy 69.85 132.08)
 		)
 		(stroke
@@ -5997,6 +6019,16 @@
 			(type default)
 		)
 		(uuid "2afd6a3a-2070-46b3-9220-09f5f03c0916")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3127913b-190e-4d9f-96d9-3d3be7c514f3")
 	)
 	(wire
 		(pts
@@ -6130,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 66.04) (xy 162.56 66.04)
+			(xy 151.13 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6227,6 +6259,16 @@
 			(type default)
 		)
 		(uuid "b93b9e1c-b239-4364-bb9e-ce5797f213d7")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 162.56 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5fe964-297f-4dc7-94bb-c0e7e0cf0d36")
 	)
 	(wire
 		(pts
@@ -7121,6 +7163,74 @@
 	)
 	(symbol
 		(lib_id "common:CerCap")
+		(at 133.35 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "503b9c7f-73d8-4593-8252-8c5772ffc570")
+		(property "Reference" "*C8"
+			(at 132.715 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 132.715 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "commonfootprint:Ceramic0603"
+			(at 133.35 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8118b169-3706-4c71-97f3-4fb125c8a335")
+		)
+		(pin "1"
+			(uuid "13a1c216-ecfd-4f9f-a37e-a5d915213460")
+		)
+		(instances
+			(project ""
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
+					(reference "*C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:CerCap")
 		(at 138.43 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7181,6 +7291,72 @@
 			(project ""
 				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 146.05 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65357759-cc79-4d3c-8fe3-95d0b04d9c06")
+		(property "Reference" "#PWR15"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17520516-d87b-43ad-981e-5c0f4206f2b6")
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -7526,7 +7702,7 @@
 	)
 	(symbol
 		(lib_id "common:S32K324NHT1MPBST")
-		(at 222.25 85.09 90)
+		(at 201.93 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7535,7 +7711,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6308fff-da30-47c6-9d59-b799b40091a2")
 		(property "Reference" "U14"
-			(at 167.64 83.8199 90)
+			(at 147.32 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7720,7 @@
 			)
 		)
 		(property "Value" "S32K324NHT1MPBST"
-			(at 167.64 86.3599 90)
+			(at 147.32 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7729,7 @@
 			)
 		)
 		(property "Footprint" "commonfootprint:IC_S32K324NHT1MPBST"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +7739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7757,7 @@
 			)
 		)
 		(property "MF" "NXP Semiconductors"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7767,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.65 mm"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7777,7 @@
 			)
 		)
 		(property "Package" "QFP-172 NXP"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7787,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7797,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S32K324NHT1MPBST/NXP+Semiconductors/view-part/?ref=eda"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +7807,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7817,7 @@
 			)
 		)
 		(property "PARTREV" "7"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7827,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S32K324NHT1MPBST/NXP+Semiconductors/view-part/?ref=snap"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7837,7 @@
 			)
 		)
 		(property "MP" "S32K324NHT1MPBST"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7847,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            ARM® Cortex®-M7 Automotive, AEC-Q100, S32K3 Microcontroller IC 32-Bit Dual-Core 160MHz 4MB (4M x 8) FLASH 172-QFP (16x16)\n                        \n"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7857,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "121580"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7867,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7877,7 @@
 			)
 		)
 		(property "MANUFACTURER" "NXP Semiconductors"
-			(at 222.25 85.09 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,71 +8558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 135.89 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9136b9c-baa9-4c25-a0fd-9fe1e6485547")
-		(property "Reference" "#PWR15"
-			(at 135.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 132.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80468381-6a38-4db1-9310-984cd405324a")
-		)
-		(instances
-			(project ""
-				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
-					(reference "#PWR15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 137.16 0)
 		(unit 1)
@@ -8507,6 +8618,76 @@
 			(project "esp32"
 				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
 					(reference "#PWR76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:CerCap")
+		(at 160.02 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b963bb-f7ae-4fdc-98af-86fc66650aca")
+		(property "Reference" "*C9"
+			(at 154.94 67.9449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 154.94 70.4849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "commonfootprint:Ceramic0603"
+			(at 153.162 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64469c05-d460-4e6b-bf95-11b72934a3f7")
+		)
+		(pin "1"
+			(uuid "d519fac3-d47f-4b71-bba9-21689a852b41")
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
+					(reference "*C9")
 					(unit 1)
 				)
 			)
