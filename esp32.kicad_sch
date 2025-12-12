@@ -4497,6 +4497,24 @@
 					(hide yes)
 				)
 			)
+			(property "MFP#" "ESP32-S3-WROOM-1-N8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikeyPart#" "5407-ESP32-S3-WROOM-1-N8TR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "myEsp32_0_1"
 				(rectangle
 					(start -17.78 20.32)
@@ -5413,6 +5431,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -10.16 -50.8 90)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -20.32 -43.18 0)
 					(length 2.54)
@@ -5432,6 +5468,24 @@
 					)
 				)
 				(pin power_in line
+					(at -5.08 -50.8 90)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -2.54 22.86 270)
 					(length 2.54)
 					(name "VDDA"
@@ -5442,6 +5496,24 @@
 						)
 					)
 					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -50.8 90)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7057,6 +7129,15 @@
 		)
 		(pin "47"
 			(uuid "cf6554ba-33bd-4ca2-b926-576e0ece9fa5")
+		)
+		(pin "55"
+			(uuid "7201dc2e-6476-4003-9022-d3b49509ee19")
+		)
+		(pin "54"
+			(uuid "748d94ac-899f-4527-b143-2b0c259a6041")
+		)
+		(pin "56"
+			(uuid "42b65ce1-a990-49c1-8eb5-8b4337252add")
 		)
 		(instances
 			(project ""
